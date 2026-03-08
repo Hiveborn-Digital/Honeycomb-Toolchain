@@ -1,0 +1,12 @@
+This is a basic toolchain to help develop games made in Honeycomb.
+
+Once compiled, put the binaries in a separate Honeycomb package and place honeycomb.bat next to all other packages. (You can find honeycomb.bat in this repository)
+
+Current commands:
+./honeycomb build [package name] - Build a specific package and copy all assets over
+./honeycomb buildall - Build all packages and copy every asset over
+./honeycomb clean [package name] - Literally just "dotnet clean"
+./honeycomb cleanall - Runs "dotnet clean" for all packages
+./honeycomb play - Build _CORE package and runs it.
+./honeycomb sync [package name] - Copy all assets over
+./honeycomb syncall - Copy every asset over
